@@ -2,7 +2,7 @@ Summary:	Wireless network link quality monitor
 Summary(pl):	Monitor jako¶ci ³±cza sieci bezprzewodowej
 Name:		wmwave
 Version:	0.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://dl.sourceforge.net/wmwave/%{name}-0-4.tgz
@@ -32,12 +32,12 @@ sieci bezprzewodowej.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
-install -d $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
+install -d $RPM_BUILD_ROOT%{_desktopdir}/docklets
 
 install %{name} $RPM_BUILD_ROOT%{_bindir}
 install %{name}.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}/docklets
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -45,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%{_applnkdir}/DockApplets/*
+%{_desktopdir}/docklets/*
 %{_mandir}/man1/*
