@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WMWave
+Comment=Wireless network monitor
+Comment[pl]=Monitor sieci bezprzewodowej
+Exec=wmwave
+Terminal=false
+Type=Application
+Encoding=UTF-8
+# vi: encoding=utf-8
