@@ -2,7 +2,7 @@ Summary:	Wireless network link quality monitor
 Summary(pl):	Monitor jako¶ci ³±cza sieci bezprzewodowej
 Name:		wmwave
 Version:	0.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://dl.sourceforge.net/wmwave/%{name}-0-4.tgz
@@ -27,7 +27,8 @@ sieci bezprzewodowej.
 
 %build
 %{__make} \
-	OPT="%{rpmcflags}"
+	OPT="%{rpmcflags}" \
+	LIBDIR="-L/usr/X11R6/%{_lib}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
