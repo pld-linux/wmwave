@@ -1,0 +1,11 @@
+--- wmwave/Makefile.orig	2004-01-30 20:38:37.000000000 +0100
++++ wmwave/Makefile	2004-01-30 20:39:08.000000000 +0100
+@@ -8,7 +8,7 @@
+ 
+ LIBDIR = -L/usr/X11R6/lib
+ LIBS   = -lXpm -lXext -lX11 -lm
+-FLAGS = -O6
++FLAGS = $(OPT)
+ OBJS =	 \
+ 		wmgeneral.o \
+ 
