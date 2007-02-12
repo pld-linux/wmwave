@@ -1,5 +1,5 @@
 Summary:	Wireless network link quality monitor
-Summary(pl.UTF-8):   Monitor jakości łącza sieci bezprzewodowej
+Summary(pl.UTF-8):	Monitor jakości łącza sieci bezprzewodowej
 Name:		wmwave
 Version:	0.4
 Release:	3
