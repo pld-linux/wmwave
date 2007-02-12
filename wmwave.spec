@@ -1,5 +1,5 @@
 Summary:	Wireless network link quality monitor
-Summary(pl):	Monitor jako¶ci ³±cza sieci bezprzewodowej
+Summary(pl.UTF-8):   Monitor jakoÅ›ci Å‚Ä…cza sieci bezprzewodowej
 Name:		wmwave
 Version:	0.4
 Release:	3
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Dockapp to display statistical information about a current wireless
 ethernet connection.
 
-%description -l pl
-Aplet wy¶wietlaj±cy statystyczne informacje o aktualnym stanie ³±cza
+%description -l pl.UTF-8
+Aplet wyÅ›wietlajÄ…cy statystyczne informacje o aktualnym stanie Å‚Ä…cza
 sieci bezprzewodowej.
 
 %prep
